@@ -1,2 +1,2 @@
 # GameSellerDemo
-Interface and abstract example
+This project is interface and abstract example.
