@@ -11,7 +11,7 @@ namespace GameSellerDemo
         static void Main(string[] args)
         {
             BaseGamerManager baseGamerManager = new SteamGamerManager(new MernisServiceAdapter());
-            baseGamerManager.Add(new Gamer() {DateOfBirth=new DateTime(2000,06,09), FirstName="Meryem Gül", LastName="Toksöz", NationalityId="52189042494", Id=1 });
+            baseGamerManager.Add(new Gamer() {DateOfBirth=new DateTime(2000,06,09), FirstName="Rose", LastName="Dobrev", NationalityId="45454545494", Id=1 });
 
             Gamer gamer1 = new Gamer() { FirstName="Ian", LastName="Somerhalder", DateOfBirth= new DateTime(1970,05,06), NationalityId="45456512157", Id=2};
             BaseGamerManager baseGamerManager1 = new EpicGamerManager();
